@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table SYSTEM "mybatis-3-mapper.dtd" >
+<mapper namespace="ssss">
+    <insert id="" parameterType="">
+
+    </insert>
+
+    <update id="" parameterType=""></update>
+
+
+    <delete id=""></delete>
+
+    <select id="" resultMap="" parameterType="">
+
+       select  <include refid="sql"/> from
+    </select>
+
+    <select id="" parameterType="" resultType="Integer">
+        <trim prefix="where" prefixOverrides="and">
+            <if test="sss != null">
+
+            </if>
+        </trim>
+    </select>
+
+    <select id="queryAll" resultMap="">
+
+    </select>
+</mapper>
